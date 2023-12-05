@@ -20,6 +20,6 @@ async fn main() -> Result<(), Error> {
                 256,
             ))
             .build()?;
-    let collection = client.create_collection(schema.clone(), None).await?;
+    let _collection = client.create_collection(schema.clone(), None).await?;
     Ok(())
 }
